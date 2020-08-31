@@ -91,7 +91,7 @@ const observableModule = require("tns-core-modules/data/observable");
 
 function HomeViewModel() {
   var viewModel = observableModule.fromObject({
-    onnTap: function (args) {
+    onTap: function (args) {
       console.log("Label was pressed");
     },
   });
